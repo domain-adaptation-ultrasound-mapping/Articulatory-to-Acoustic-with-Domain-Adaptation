@@ -186,5 +186,5 @@ print('model initialized')
 
 model = train(model, dataset, domain_type, optimizer, train_params)
 
-model_path = model_dir + ds_name + '_' + domain_type + '_' + str(lamda_domain)
+model_path = model_dir + ds_name + '_' + domain_type + '_' + str(lambda_domain)
 torch.save(model, model_path)
